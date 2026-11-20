@@ -1,0 +1,14 @@
+C:\Users\Acer\Desktop\Phát triển ứng dụng phân tán\He thong dat mon va xu ly bep\src\OrderClient\bin\Debug\net10.0\OrderClient.exe
+C:\Users\Acer\Desktop\Phát triển ứng dụng phân tán\He thong dat mon va xu ly bep\src\OrderClient\bin\Debug\net10.0\OrderClient.deps.json
+C:\Users\Acer\Desktop\Phát triển ứng dụng phân tán\He thong dat mon va xu ly bep\src\OrderClient\bin\Debug\net10.0\OrderClient.runtimeconfig.json
+C:\Users\Acer\Desktop\Phát triển ứng dụng phân tán\He thong dat mon va xu ly bep\src\OrderClient\bin\Debug\net10.0\OrderClient.dll
+C:\Users\Acer\Desktop\Phát triển ứng dụng phân tán\He thong dat mon va xu ly bep\src\OrderClient\bin\Debug\net10.0\OrderClient.pdb
+C:\Users\Acer\Desktop\Phát triển ứng dụng phân tán\He thong dat mon va xu ly bep\src\OrderClient\obj\Debug\net10.0\OrderClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Acer\Desktop\Phát triển ứng dụng phân tán\He thong dat mon va xu ly bep\src\OrderClient\obj\Debug\net10.0\OrderClient.AssemblyInfoInputs.cache
+C:\Users\Acer\Desktop\Phát triển ứng dụng phân tán\He thong dat mon va xu ly bep\src\OrderClient\obj\Debug\net10.0\OrderClient.AssemblyInfo.cs
+C:\Users\Acer\Desktop\Phát triển ứng dụng phân tán\He thong dat mon va xu ly bep\src\OrderClient\obj\Debug\net10.0\OrderClient.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Desktop\Phát triển ứng dụng phân tán\He thong dat mon va xu ly bep\src\OrderClient\obj\Debug\net10.0\OrderClient.dll
+C:\Users\Acer\Desktop\Phát triển ứng dụng phân tán\He thong dat mon va xu ly bep\src\OrderClient\obj\Debug\net10.0\refint\OrderClient.dll
+C:\Users\Acer\Desktop\Phát triển ứng dụng phân tán\He thong dat mon va xu ly bep\src\OrderClient\obj\Debug\net10.0\OrderClient.pdb
+C:\Users\Acer\Desktop\Phát triển ứng dụng phân tán\He thong dat mon va xu ly bep\src\OrderClient\obj\Debug\net10.0\OrderClient.genruntimeconfig.cache
+C:\Users\Acer\Desktop\Phát triển ứng dụng phân tán\He thong dat mon va xu ly bep\src\OrderClient\obj\Debug\net10.0\ref\OrderClient.dll
