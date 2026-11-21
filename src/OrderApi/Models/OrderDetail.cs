@@ -11,11 +11,12 @@ public class OrderDetail
 
     public string MenuItemName { get; set; } = "";
 
-    public int Quantity { get; set; }
-
     public decimal UnitPrice { get; set; }
+
+    public int Quantity { get; set; }
 
     public decimal LineTotal { get; set; }
 
+    // Quan hệ với đơn hàng
     public Order? Order { get; set; }
 }

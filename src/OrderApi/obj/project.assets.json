@@ -872,11 +872,11 @@
           }
         }
       },
-      "SQLitePCLRaw.bundle_e_sqlite3/2.1.11": {
+      "SQLitePCLRaw.bundle_e_sqlite3/2.1.14": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.lib.e_sqlite3": "2.1.11",
-          "SQLitePCLRaw.provider.e_sqlite3": "2.1.11"
+          "SQLitePCLRaw.lib.e_sqlite3": "2.1.14",
+          "SQLitePCLRaw.provider.e_sqlite3": "2.1.14"
         },
         "compile": {
           "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {}
@@ -885,7 +885,7 @@
           "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {}
         }
       },
-      "SQLitePCLRaw.core/2.1.11": {
+      "SQLitePCLRaw.core/2.1.14": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
@@ -894,7 +894,7 @@
           "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
         }
       },
-      "SQLitePCLRaw.lib.e_sqlite3/2.1.11": {
+      "SQLitePCLRaw.lib.e_sqlite3/2.1.14": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/_._": {}
@@ -982,10 +982,6 @@
             "assetType": "native",
             "rid": "osx-x64"
           },
-          "runtimes/win-arm/native/e_sqlite3.dll": {
-            "assetType": "native",
-            "rid": "win-arm"
-          },
           "runtimes/win-arm64/native/e_sqlite3.dll": {
             "assetType": "native",
             "rid": "win-arm64"
@@ -1000,10 +996,10 @@
           }
         }
       },
-      "SQLitePCLRaw.provider.e_sqlite3/2.1.11": {
+      "SQLitePCLRaw.provider.e_sqlite3/2.1.14": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.core": "2.1.11"
+          "SQLitePCLRaw.core": "2.1.14"
         },
         "compile": {
           "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
@@ -1208,15 +1204,15 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
-      "System.Security.Cryptography.Pkcs/9.0.0": {
+      "System.Security.Cryptography.Pkcs/10.0.14": {
         "type": "package",
         "compile": {
-          "lib/net9.0/_._": {
+          "lib/net10.0/System.Security.Cryptography.Pkcs.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net9.0/System.Security.Cryptography.Pkcs.dll": {
+          "lib/net10.0/System.Security.Cryptography.Pkcs.dll": {
             "related": ".xml"
           }
         },
@@ -1224,7 +1220,7 @@
           "buildTransitive/net8.0/_._": {}
         },
         "runtimeTargets": {
-          "runtimes/win/lib/net9.0/System.Security.Cryptography.Pkcs.dll": {
+          "runtimes/win/lib/net10.0/System.Security.Cryptography.Pkcs.dll": {
             "assetType": "runtime",
             "rid": "win"
           }
@@ -2690,14 +2686,13 @@
         "packageIcon.png"
       ]
     },
-    "SQLitePCLRaw.bundle_e_sqlite3/2.1.11": {
-      "sha512": "DC4nA7yWnf4UZdgJDF+9Mus4/cb0Y3Sfgi3gDnAoKNAIBwzkskNAbNbyu+u4atT0ruVlZNJfwZmwiEwE5oz9LQ==",
+    "SQLitePCLRaw.bundle_e_sqlite3/2.1.14": {
+      "sha512": "Y6K7m+7ODFmGwAC/ApJY3c68Rq4WPgoIj4GOceagaTow5tLzaJwD9invSWzU8bSMTcKOR101a1ZaU0LQ5SoX/Q==",
       "type": "package",
-      "path": "sqlitepclraw.bundle_e_sqlite3/2.1.11",
+      "path": "sqlitepclraw.bundle_e_sqlite3/2.1.14",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/monoandroid90/SQLitePCLRaw.batteries_v2.dll",
         "lib/net461/SQLitePCLRaw.batteries_v2.dll",
         "lib/net6.0-android31.0/SQLitePCLRaw.batteries_v2.dll",
         "lib/net6.0-android31.0/SQLitePCLRaw.batteries_v2.xml",
@@ -2705,27 +2700,26 @@
         "lib/net6.0-ios14.2/SQLitePCLRaw.batteries_v2.dll",
         "lib/net6.0-tvos10.0/SQLitePCLRaw.batteries_v2.dll",
         "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll",
-        "lib/xamarinios10/SQLitePCLRaw.batteries_v2.dll",
-        "sqlitepclraw.bundle_e_sqlite3.2.1.11.nupkg.sha512",
+        "sqlitepclraw.bundle_e_sqlite3.2.1.14.nupkg.sha512",
         "sqlitepclraw.bundle_e_sqlite3.nuspec"
       ]
     },
-    "SQLitePCLRaw.core/2.1.11": {
-      "sha512": "PK0GLFkfhZzLQeR3PJf71FmhtHox+U3vcY6ZtswoMjrefkB9k6ErNJEnwXqc5KgXDSjige2XXrezqS39gkpQKA==",
+    "SQLitePCLRaw.core/2.1.14": {
+      "sha512": "LqyPmc38sTnZGivatrJ918DhnohR4SUg+I+9ps+nYrh3VC1sRakjpbJfiRLHRstRT7O9l+BOP/zser8vw+qPPw==",
       "type": "package",
-      "path": "sqlitepclraw.core/2.1.11",
+      "path": "sqlitepclraw.core/2.1.14",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/SQLitePCLRaw.core.dll",
-        "sqlitepclraw.core.2.1.11.nupkg.sha512",
+        "sqlitepclraw.core.2.1.14.nupkg.sha512",
         "sqlitepclraw.core.nuspec"
       ]
     },
-    "SQLitePCLRaw.lib.e_sqlite3/2.1.11": {
-      "sha512": "Ev2ytaXiOlWZ4b3R67GZBsemTINslLD1DCJr2xiacpn4tbapu0Q4dHEzSvZSMnVWeE5nlObU3VZN2p81q3XOYQ==",
+    "SQLitePCLRaw.lib.e_sqlite3/2.1.14": {
+      "sha512": "h32f78UhMGzr3l2kO8t1+qp7ItqfbmyAFTLjBHqL13/kNeKOR6K6FhOQe/gOzlHnUSFAYNUt3JoVPAEjFRIB9g==",
       "type": "package",
-      "path": "sqlitepclraw.lib.e_sqlite3/2.1.11",
+      "path": "sqlitepclraw.lib.e_sqlite3/2.1.14",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2758,29 +2752,24 @@
         "runtimes/maccatalyst-x64/native/libe_sqlite3.dylib",
         "runtimes/osx-arm64/native/libe_sqlite3.dylib",
         "runtimes/osx-x64/native/libe_sqlite3.dylib",
-        "runtimes/win-arm/native/e_sqlite3.dll",
         "runtimes/win-arm64/native/e_sqlite3.dll",
         "runtimes/win-x64/native/e_sqlite3.dll",
         "runtimes/win-x86/native/e_sqlite3.dll",
-        "runtimes/win10-arm/nativeassets/uap10.0/e_sqlite3.dll",
-        "runtimes/win10-arm64/nativeassets/uap10.0/e_sqlite3.dll",
-        "runtimes/win10-x64/nativeassets/uap10.0/e_sqlite3.dll",
-        "runtimes/win10-x86/nativeassets/uap10.0/e_sqlite3.dll",
-        "sqlitepclraw.lib.e_sqlite3.2.1.11.nupkg.sha512",
+        "sqlitepclraw.lib.e_sqlite3.2.1.14.nupkg.sha512",
         "sqlitepclraw.lib.e_sqlite3.nuspec"
       ]
     },
-    "SQLitePCLRaw.provider.e_sqlite3/2.1.11": {
-      "sha512": "Y/0ZkR+r0Cg3DQFuCl1RBnv/tmxpIZRU3HUvelPw6MVaKHwYYR8YNvgs0vuNuXCMvlyJ+Fh88U1D4tah1tt6qw==",
+    "SQLitePCLRaw.provider.e_sqlite3/2.1.14": {
+      "sha512": "53lrHTKoz5jCmwUjiiYD/mZUr34XCAk+Cd2T5fBrCGs7zI956cBSouWoX5owO67QA45YlzsWKSUJE/Ajc5h1bQ==",
       "type": "package",
-      "path": "sqlitepclraw.provider.e_sqlite3/2.1.11",
+      "path": "sqlitepclraw.provider.e_sqlite3/2.1.14",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/net6.0-windows7.0/SQLitePCLRaw.provider.e_sqlite3.dll",
         "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll",
         "lib/netstandard2.0/SQLitePCLRaw.provider.e_sqlite3.dll",
-        "sqlitepclraw.provider.e_sqlite3.2.1.11.nupkg.sha512",
+        "sqlitepclraw.provider.e_sqlite3.2.1.14.nupkg.sha512",
         "sqlitepclraw.provider.e_sqlite3.nuspec"
       ]
     },
@@ -3086,20 +3075,21 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.Security.Cryptography.Pkcs/9.0.0": {
-      "sha512": "8tluJF8w9si+2yoHeL8rgVJS6lKvWomTDC8px65Z8MCzzdME5eaPtEQf4OfVGrAxB5fW93ncucy1+221O9EQaw==",
+    "System.Security.Cryptography.Pkcs/10.0.14": {
+      "sha512": "Wz+IgL2xpg8KJ4i2VWj6uz1PmZNu4Q0Ljlwd73P9Vze5NcOBtctLii3itV0PB2MpOqwqDEGfB6RCdv94A4E5yQ==",
       "type": "package",
-      "path": "system.security.cryptography.pkcs/9.0.0",
+      "path": "system.security.cryptography.pkcs/10.0.14",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
-        "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "buildTransitive/net461/System.Security.Cryptography.Pkcs.targets",
         "buildTransitive/net462/_._",
         "buildTransitive/net8.0/_._",
         "buildTransitive/netcoreapp2.0/System.Security.Cryptography.Pkcs.targets",
+        "lib/net10.0/System.Security.Cryptography.Pkcs.dll",
+        "lib/net10.0/System.Security.Cryptography.Pkcs.xml",
         "lib/net462/System.Security.Cryptography.Pkcs.dll",
         "lib/net462/System.Security.Cryptography.Pkcs.xml",
         "lib/net8.0/System.Security.Cryptography.Pkcs.dll",
@@ -3110,11 +3100,13 @@
         "lib/netstandard2.0/System.Security.Cryptography.Pkcs.xml",
         "lib/netstandard2.1/System.Security.Cryptography.Pkcs.dll",
         "lib/netstandard2.1/System.Security.Cryptography.Pkcs.xml",
+        "runtimes/win/lib/net10.0/System.Security.Cryptography.Pkcs.dll",
+        "runtimes/win/lib/net10.0/System.Security.Cryptography.Pkcs.xml",
         "runtimes/win/lib/net8.0/System.Security.Cryptography.Pkcs.dll",
         "runtimes/win/lib/net8.0/System.Security.Cryptography.Pkcs.xml",
         "runtimes/win/lib/net9.0/System.Security.Cryptography.Pkcs.dll",
         "runtimes/win/lib/net9.0/System.Security.Cryptography.Pkcs.xml",
-        "system.security.cryptography.pkcs.9.0.0.nupkg.sha512",
+        "system.security.cryptography.pkcs.10.0.14.nupkg.sha512",
         "system.security.cryptography.pkcs.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -3208,7 +3200,9 @@
   "projectFileDependencyGroups": {
     "net10.0": [
       "Microsoft.EntityFrameworkCore.Design >= 10.0.0",
-      "Microsoft.EntityFrameworkCore.Sqlite >= 10.0.0"
+      "Microsoft.EntityFrameworkCore.Sqlite >= 10.0.0",
+      "SQLitePCLRaw.bundle_e_sqlite3 >= 2.1.14",
+      "System.Security.Cryptography.Pkcs >= 10.0.14"
     ]
   },
   "packageFolders": {
@@ -3265,6 +3259,14 @@
           "Microsoft.EntityFrameworkCore.Sqlite": {
             "target": "Package",
             "version": "[10.0.0, )"
+          },
+          "SQLitePCLRaw.bundle_e_sqlite3": {
+            "target": "Package",
+            "version": "[2.1.14, )"
+          },
+          "System.Security.Cryptography.Pkcs": {
+            "target": "Package",
+            "version": "[10.0.14, )"
           }
         },
         "imports": [
@@ -3703,37 +3705,5 @@
         }
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'SQLitePCLRaw.lib.e_sqlite3' 2.1.11 has a known high severity vulnerability, https://github.com/advisories/GHSA-2m69-gcr7-jv3q",
-      "libraryId": "SQLitePCLRaw.lib.e_sqlite3",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    },
-    {
-      "code": "NU1902",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'System.Security.Cryptography.Pkcs' 9.0.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-2fmv-rv2c-59x7",
-      "libraryId": "System.Security.Cryptography.Pkcs",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    },
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'System.Security.Cryptography.Pkcs' 9.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-846f-f764-76mx",
-      "libraryId": "System.Security.Cryptography.Pkcs",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    }
-  ]
+  }
 }

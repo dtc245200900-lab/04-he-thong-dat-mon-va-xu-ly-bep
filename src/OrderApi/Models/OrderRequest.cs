@@ -1,9 +1,9 @@
 
 namespace OrderApi.Models;
 
-public class OrderRequest
+public class OrderItemRequest
 {
-    public string CustomerName { get; set; } = "";
+    public int MenuItemId { get; set; }
 
-    public List<OrderItemRequest> Items { get; set; } = new();
+    public int Quantity { get; set; }
 }

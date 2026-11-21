@@ -12,3 +12,4 @@ C:\Users\Acer\Desktop\Phát triển ứng dụng phân tán\He thong dat mon va 
 C:\Users\Acer\Desktop\Phát triển ứng dụng phân tán\He thong dat mon va xu ly bep\src\OrderClient\obj\Debug\net10.0\OrderClient.pdb
 C:\Users\Acer\Desktop\Phát triển ứng dụng phân tán\He thong dat mon va xu ly bep\src\OrderClient\obj\Debug\net10.0\OrderClient.genruntimeconfig.cache
 C:\Users\Acer\Desktop\Phát triển ứng dụng phân tán\He thong dat mon va xu ly bep\src\OrderClient\obj\Debug\net10.0\ref\OrderClient.dll
+C:\Users\Acer\Desktop\Phát triển ứng dụng phân tán\He thong dat mon va xu ly bep\src\OrderClient\obj\Debug\net10.0\OrderClient.sourcelink.json

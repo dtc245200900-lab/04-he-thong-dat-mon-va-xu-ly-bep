@@ -193,10 +193,10 @@ C:\Users\Acer\Desktop\Phát triển ứng dụng phân tán\He thong dat mon va 
 C:\Users\Acer\Desktop\Phát triển ứng dụng phân tán\He thong dat mon va xu ly bep\src\OrderApi\bin\Debug\net10.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
 C:\Users\Acer\Desktop\Phát triển ứng dụng phân tán\He thong dat mon va xu ly bep\src\OrderApi\bin\Debug\net10.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
 C:\Users\Acer\Desktop\Phát triển ứng dụng phân tán\He thong dat mon va xu ly bep\src\OrderApi\bin\Debug\net10.0\runtimes\osx-x64\native\libe_sqlite3.dylib
-C:\Users\Acer\Desktop\Phát triển ứng dụng phân tán\He thong dat mon va xu ly bep\src\OrderApi\bin\Debug\net10.0\runtimes\win-arm\native\e_sqlite3.dll
 C:\Users\Acer\Desktop\Phát triển ứng dụng phân tán\He thong dat mon va xu ly bep\src\OrderApi\bin\Debug\net10.0\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\Acer\Desktop\Phát triển ứng dụng phân tán\He thong dat mon va xu ly bep\src\OrderApi\bin\Debug\net10.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\Acer\Desktop\Phát triển ứng dụng phân tán\He thong dat mon va xu ly bep\src\OrderApi\bin\Debug\net10.0\runtimes\win-x86\native\e_sqlite3.dll
 C:\Users\Acer\Desktop\Phát triển ứng dụng phân tán\He thong dat mon va xu ly bep\src\OrderApi\bin\Debug\net10.0\runtimes\win\lib\net9.0\System.Windows.Extensions.dll
 C:\Users\Acer\Desktop\Phát triển ứng dụng phân tán\He thong dat mon va xu ly bep\src\OrderApi\obj\Debug\net10.0\OrderApi.csproj.AssemblyReference.cache
 C:\Users\Acer\Desktop\Phát triển ứng dụng phân tán\He thong dat mon va xu ly bep\src\OrderApi\obj\Debug\net10.0\OrderApi.csproj.Up2Date
+C:\Users\Acer\Desktop\Phát triển ứng dụng phân tán\He thong dat mon va xu ly bep\src\OrderApi\obj\Debug\net10.0\OrderApi.sourcelink.json

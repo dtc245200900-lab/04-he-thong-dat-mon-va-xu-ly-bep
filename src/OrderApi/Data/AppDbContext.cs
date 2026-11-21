@@ -11,34 +11,48 @@ public class AppDbContext : DbContext
     {
     }
 
-    // Bảng lưu thông tin đơn hàng
     public DbSet<Order> Orders => Set<Order>();
 
-    // Bảng lưu chi tiết từng món trong đơn hàng
     public DbSet<OrderDetail> OrderDetails => Set<OrderDetail>();
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
 
-        // Một đơn hàng có nhiều chi tiết món ăn
-        modelBuilder.Entity<Order>()
-            .HasMany(o => o.OrderDetails)
-            .WithOne(d => d.Order)
-            .HasForeignKey(d => d.OrderId)
-            .OnDelete(DeleteBehavior.Cascade);
+        modelBuilder.Entity<Order>(entity =>
+        {
+            entity.HasKey(o => o.Id);
 
-        // Cấu hình độ chính xác tiền
-        modelBuilder.Entity<Order>()
-            .Property(o => o.TotalAmount)
-            .HasPrecision(18, 2);
+            entity.Property(o => o.CustomerName)
+                .IsRequired()
+                .HasMaxLength(150);
 
-        modelBuilder.Entity<OrderDetail>()
-            .Property(d => d.UnitPrice)
-            .HasPrecision(18, 2);
+            entity.Property(o => o.TotalAmount)
+                .HasPrecision(18, 2);
 
-        modelBuilder.Entity<OrderDetail>()
-            .Property(d => d.LineTotal)
-            .HasPrecision(18, 2);
+            entity.Property(o => o.Status)
+                .IsRequired()
+                .HasMaxLength(30);
+
+            entity.HasMany(o => o.OrderDetails)
+                .WithOne(d => d.Order)
+                .HasForeignKey(d => d.OrderId)
+                .OnDelete(DeleteBehavior.Cascade);
+        });
+
+        modelBuilder.Entity<OrderDetail>(entity =>
+        {
+            entity.HasKey(d => d.Id);
+
+            entity.Property(d => d.MenuItemName)
+                .IsRequired()
+                .HasMaxLength(200);
+
+            entity.Property(d => d.UnitPrice)
+                .HasPrecision(18, 2);
+
+            entity.Property(d => d.LineTotal)
+                .HasPrecision(18, 2);
+        });
     }
 }

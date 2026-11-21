@@ -55,6 +55,14 @@
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[10.0.0, )"
+            },
+            "SQLitePCLRaw.bundle_e_sqlite3": {
+              "target": "Package",
+              "version": "[2.1.14, )"
+            },
+            "System.Security.Cryptography.Pkcs": {
+              "target": "Package",
+              "version": "[10.0.14, )"
             }
           },
           "imports": [

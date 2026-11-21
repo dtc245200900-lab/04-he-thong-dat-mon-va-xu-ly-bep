@@ -9,9 +9,10 @@ public class Order
 
     public decimal TotalAmount { get; set; }
 
-    public string Status { get; set; } = "Cho tiep nhan";
+    // Pending, Preparing, Ready, Completed, Cancelled
+    public string Status { get; set; } = "Pending";
 
-    public DateTime CreatedAt { get; set; } = DateTime.Now;
+    public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 
     public List<OrderDetail> OrderDetails { get; set; } = new();
 }
